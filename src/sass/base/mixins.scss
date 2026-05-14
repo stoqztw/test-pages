@@ -6,3 +6,10 @@
 	line-height: normal;
 	text-transform: uppercase;
 }
+
+@mixin button {
+	display: block;
+	border-radius: 2px;
+	border: 1px solid $color-dark;
+	color: $color-dark;
+}

@@ -4,7 +4,7 @@
 	padding-top: 50px;
 
 	&__title {
-		margin-top: 20px;
+		margin-block-start: 20px;
 		text-align: center;
 	}
 
@@ -35,7 +35,7 @@
 		}
 
 		&__title {
-			margin: 250px 0 0 70px;
+			margin-block-start: 250px;
 			max-width: 330px;
 			text-align: left;
 		}
@@ -71,7 +71,7 @@
 		}
 
 		&__title {
-			margin-top: 384px;
+			margin-block-start: 384px;
 			max-width: 438px;
 			font-size: 32px;
 		}

@@ -8,7 +8,7 @@ export default defineConfig({
 		rolldownOptions: {
 			input: {
 				main: resolve(import.meta.dirname, "index.html"),
-				// nested: resolve(import.meta.dirname, 'nested/index.html'),
+				// nested: resolve(import.meta.dirname, "nested/index.html"),
 			},
 		},
 	},
