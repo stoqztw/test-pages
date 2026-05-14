@@ -1,0 +1,25 @@
+@use "/src/sass/base/variables.scss" as *;
+
+.btn {
+	padding: 0 20px;
+	display: block;
+	border-radius: 2px;
+	border: 1px solid $color-dark;
+	background-color: rgba(255, 255, 255, 0);
+	color: $color-dark;
+	font-size: 20px;
+	line-height: normal;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in;
+
+	&:hover {
+		background: $color-dark;
+		color: $color-light;
+	}
+
+	&:active {
+		background: rgba(217, 217, 217, 0.1);
+		box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4) inset;
+		color: $color-dark;
+	}
+}

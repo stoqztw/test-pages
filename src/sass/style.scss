@@ -1,0 +1,16 @@
+//libs
+@use '/src/css/libs/fontello.css';
+@use '/src/css/libs/modern-normalize.css';
+
+//base
+@use '/src/sass/base/base.scss';
+
+//ui
+@use '/src/sass/ui/titles.scss';
+@use '/src/sass/ui/button.scss';
+
+//components
+@use '/src/sass/components/header.scss';
+
+//homepage blocks
+@use '/src/sass/homepage/promo.scss';
