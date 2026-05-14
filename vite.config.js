@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
 	base: "/test-pages/",
 	build: {
+		outDir: "docs",
 		rolldownOptions: {
 			input: {
 				main: resolve(import.meta.dirname, "index.html"),
